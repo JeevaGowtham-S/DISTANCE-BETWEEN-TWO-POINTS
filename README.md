@@ -4,11 +4,16 @@
 To write a python program to find the distance two 2 points
 ## ALGORITHM:
 ### Step 1: 
+Import the numpy module to use the built-in functions for calculation.
 ### Step 2: 
+Prepare the lists from each linear equations and assign in np.array()
 ### Step 3: 
-Substitute the values in the distance formula  ![formula](/formula.jpg)
-### Step 4: 
+Substitute the values in the distance formula 
+ ![formula](/formula.png)
+### Step 4:
+Print using .format model. 
 ### Step 5: 
+End the program.
 ### PROGRAM:
 ```
 #Program to find the distance between two points.
@@ -24,7 +29,7 @@ print("{:.2f}".format(d))
 
 
 ### OUTPUT:
-![output](/image/formula.png)
 ![output](/image/distance.png)
 
 ### RESULT:
+The distance between the two points is diaplayed sucessfully.
